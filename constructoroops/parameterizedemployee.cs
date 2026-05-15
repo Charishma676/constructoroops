@@ -11,13 +11,13 @@ namespace constructoroops
         int Eid;
         string Ename;
         double Esal;
-        public Employee()
+        public employee()
         {
-            Eid = 0;
+            Eid = 1;
             Ename = "abc";
             Esal = 10000;
         }
-        public void Employee(int Eid, string Ename, double Esal)
+        public  employee(int eid, string ename, double esal)
         {
             Eid = eid;
             Ename = ename;
@@ -29,15 +29,15 @@ namespace constructoroops
             Console.WriteLine("Employee name is:" + Ename);
             Console.WriteLine("Employee salary is:" + Esal);
         }
-        internal class parameteremployee
+        internal class program
         {
             static void Main(string[] args)
             {
-                Employee obj = new Employee();
+                employee obj = new employee();
                 obj.DisplayEmployee();
-                Employee obj2 = new Employee(102, "bcd", 15000);
+                employee obj2 = new employee(102, "bcd", 15000);
                 obj2.DisplayEmployee();
-                Employee obj3 = new Employee(103, "cde", 20000);
+                employee obj3 = new employee(103, "cde", 20000);
                 obj3.DisplayEmployee();
             }
         }
