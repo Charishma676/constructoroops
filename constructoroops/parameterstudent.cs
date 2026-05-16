@@ -34,7 +34,7 @@ namespace constructoroops
         }
 
 
-        internal class parameterized
+        internal class parameterstudent
         {
             static void Main(string[] args)
             {

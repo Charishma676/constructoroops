@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="paracar.cs" />
-    <Compile Include="parameterized.cs" />
+    <Compile Include="parameterstudent.cs" />
     <Compile Include="parameterizedemployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
